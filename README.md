@@ -23,6 +23,10 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
 - `docs/` — architecture notes, runbook, security, and cost considerations
 - `data/` — local datasets or generated sample telemetry (optional)
 
+## Docs
+- `docs/architecture.md` — reference architecture and data contracts
+- `docs/runbook.md` — operational runbook and troubleshooting
+
 ## Milestones
 ### Milestone A: Local baseline (current)
 - Train Isolation Forest on synthetic or public telemetry dataset
