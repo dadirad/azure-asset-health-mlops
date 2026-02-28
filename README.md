@@ -27,6 +27,8 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
 ## Docs
 - `docs/architecture.md` — reference architecture and data contracts
 - `docs/runbook.md` — operational runbook and troubleshooting
+- `docs/security.md` — security posture, identity, logging, and model risk notes
+- `docs/cost-notes.md` — cost drivers and optimization levers for Azure deployment
 
 ## Milestones
 ### Milestone A: Local baseline (current)
