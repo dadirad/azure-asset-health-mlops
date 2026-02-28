@@ -57,7 +57,7 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
    - `python -m src.predict --input sample_payload.json`
 
 4. Run unit tests:
-   - `pytest`
+   - `pytest -q`
 
 **Expected outputs**
 - `models/isolation_forest.joblib`
