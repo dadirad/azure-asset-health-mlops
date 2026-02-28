@@ -1,0 +1,5 @@
+[
+  { "asset_id": "A-001", "timestamp": "2026-01-01T00:00:00Z", "temp_c": 60.0, "vibration": 1.4, "pressure_bar": 35.0, "rpm": 1800 },
+  { "asset_id": "A-001", "timestamp": "2026-01-01T00:00:30Z", "temp_c": 60.4, "vibration": 1.5, "pressure_bar": 35.2, "rpm": 1795 },
+  { "asset_id": "A-001", "timestamp": "2026-01-01T00:01:00Z", "temp_c": 61.0, "vibration": 1.6, "pressure_bar": 35.1, "rpm": 1805 }
+]
