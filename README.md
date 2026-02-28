@@ -1,3 +1,4 @@
+![CI](https://github.com/dadirad/azure-asset-health-mlops/actions/workflows/ci.yml/badge.svg)
 # Azure Asset Health MLOps
 
 End-to-end Azure reference implementation for asset health anomaly detection: telemetry ingestion, feature engineering, Isolation Forest baseline, API scoring, observability, and an EAM work-order integration pattern.
