@@ -66,5 +66,15 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
 - `models/isolation_forest.joblib`
 - `models/metadata.json`
 
+### API (Milestone B)
+1. Train baseline model first (creates `models/` artifacts):
+   - `python -m src.train`
+
+2. Start API locally:
+   - `uvicorn api.main:app --reload`
+
+3. Score telemetry:
+   - `curl -X POST http://127.0.0.1:8000/score -H "Content-Type: application/json" --data @api/sample_request.json`
+
 **Note**
 Model artifacts are generated at runtime and are not committed to the repository.
