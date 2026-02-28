@@ -18,17 +18,18 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
 > Implementation starts locally (Milestone A), then progresses to a containerized API and Azure deployment.
 
 ## Repository structure
-- `src/` — feature engineering, training, and prediction scripts
-- `api/` — API service (FastAPI) for online scoring (Milestone B)
-- `tests/` — unit tests (feature pipeline and scoring contracts)
-- `docs/` — architecture notes, runbook, security, and cost considerations
-- `data/` — local datasets or generated sample telemetry (optional)
+- `src/` - feature engineering, training, and prediction scripts
+- `api/` - API service (FastAPI) for online scoring (Milestone B)
+- `tests/` - unit tests (feature pipeline and scoring contracts)
+- `docs/` - architecture notes, runbook, security, and cost considerations
+- `data/` - local datasets or generated sample telemetry (optional)
 
 ## Docs
-- `docs/architecture.md` — reference architecture and data contracts
-- `docs/runbook.md` — operational runbook and troubleshooting
-- `docs/security.md` — security posture, identity, logging, and model risk notes
-- `docs/cost-notes.md` — cost drivers and optimization levers for Azure deployment
+- `docs/architecture.md` - reference architecture and data contracts
+- `docs/runbook.md` - operational runbook and troubleshooting
+- `docs/security.md` - security posture, identity, logging, and model risk notes
+- `docs/cost-notes.md` - cost drivers and optimization levers for Azure deployment
+- `docs/decisions.md` - recorded architecture choices and tradeoffs 
 
 ## Milestones
 ### Milestone A: Local baseline (current)
