@@ -76,5 +76,15 @@ Detect abnormal asset behavior early using telemetry signals such as vibration, 
 3. Score telemetry:
    - `curl -X POST http://127.0.0.1:8000/score -H "Content-Type: application/json" --data @api/sample_request.json`
 
+### Container (Milestone B)
+1. Build:
+   - `docker build -t asset-health-api:latest .`
+
+2. Run:
+   - `docker run -p 8000:8000 asset-health-api:latest`
+
+3. Health check:
+   - `curl http://127.0.0.1:8000/health`
+
 **Note**
 Model artifacts are generated at runtime and are not committed to the repository.
