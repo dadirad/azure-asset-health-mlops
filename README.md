@@ -44,3 +44,9 @@ Quickstart steps will be added after Milestone A scripts are committed:
 - `src/train.py`
 - `src/predict.py`
 - `tests/test_features.py`
+
+### Local (Milestone A)
+1. Install dependencies: `pip install -r requirements.txt`
+2. Train baseline model: `python -m src.train`
+3. Score sample payload: `python -m src.predict --input sample_payload.json`
+4. Run tests: `pytest`
